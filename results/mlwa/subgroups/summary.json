@@ -1,0 +1,450 @@
+[
+ {
+  "site": "A",
+  "group": "age<65",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 12,
+  "ci": [
+   0.13060991619745735,
+   0.3816907481040383
+  ],
+  "rfnr_mean": 0.03931351716094507,
+  "retained_pos_mean": 238.58
+ },
+ {
+  "site": "A",
+  "group": "age<65",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 6,
+  "ci": [
+   0.04533532077366385,
+   0.2431013167055626
+  ],
+  "rfnr_mean": 0.026272413594947565,
+  "retained_pos_mean": 242.96
+ },
+ {
+  "site": "A",
+  "group": "age>=65",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 2,
+  "ci": [
+   0.004881433426164379,
+   0.13713762560396733
+  ],
+  "rfnr_mean": 0.02547566342483484,
+  "retained_pos_mean": 243.0
+ },
+ {
+  "site": "A",
+  "group": "age>=65",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 3,
+  "ci": [
+   0.01254858783533406,
+   0.16548194660377283
+  ],
+  "rfnr_mean": 0.02282209670061528,
+  "retained_pos_mean": 245.5
+ },
+ {
+  "site": "A",
+  "group": "female",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 19,
+  "ci": [
+   0.24650107779986222,
+   0.5282508369471446
+  ],
+  "rfnr_mean": 0.0463998708235823,
+  "retained_pos_mean": 178.94
+ },
+ {
+  "site": "A",
+  "group": "female",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 5,
+  "ci": [
+   0.03327509358902247,
+   0.21813536643420225
+  ],
+  "rfnr_mean": 0.02026762231471841,
+  "retained_pos_mean": 185.38
+ },
+ {
+  "site": "A",
+  "group": "male",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 1,
+  "ci": [
+   0.000506227983040829,
+   0.10646954571149987
+  ],
+  "rfnr_mean": 0.023828124721978663,
+  "retained_pos_mean": 302.64
+ },
+ {
+  "site": "A",
+  "group": "male",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 7,
+  "ci": [
+   0.05819170034037209,
+   0.2673960024970084
+  ],
+  "rfnr_mean": 0.02641934804667967,
+  "retained_pos_mean": 302.08
+ },
+ {
+  "site": "A",
+  "group": "unit_medical",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 1,
+  "ci": [
+   0.000506227983040829,
+   0.10646954571149987
+  ],
+  "rfnr_mean": 0.026443071486889562,
+  "retained_pos_mean": 144.48
+ },
+ {
+  "site": "A",
+  "group": "unit_medical",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 3,
+  "ci": [
+   0.01254858783533406,
+   0.16548194660377283
+  ],
+  "rfnr_mean": 0.015474669422017202,
+  "retained_pos_mean": 149.86
+ },
+ {
+  "site": "A",
+  "group": "unit_surgical",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 47,
+  "ci": [
+   0.8345180533962271,
+   0.9874514121646659
+  ],
+  "rfnr_mean": 0.17640388012747785,
+  "retained_pos_mean": 46.6
+ },
+ {
+  "site": "A",
+  "group": "unit_surgical",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 49,
+  "too_small": 0,
+  "evaluated": 1,
+  "violations": 0,
+  "ci": [
+   0.0,
+   0.975
+  ],
+  "rfnr_mean": 0.0,
+  "retained_pos_mean": 55.0
+ },
+ {
+  "site": "A",
+  "group": "unit_unknown",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 0,
+  "ci": [
+   0.0,
+   0.07112173646419764
+  ],
+  "rfnr_mean": 0.011485312741729068,
+  "retained_pos_mean": 290.5
+ },
+ {
+  "site": "A",
+  "group": "unit_unknown",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 4,
+  "ci": [
+   0.02222796365492976,
+   0.19234278359596282
+  ],
+  "rfnr_mean": 0.02508075674630966,
+  "retained_pos_mean": 281.4
+ },
+ {
+  "site": "B",
+  "group": "age<65",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 5,
+  "ci": [
+   0.03327509358902247,
+   0.21813536643420225
+  ],
+  "rfnr_mean": 0.02496445090156504,
+  "retained_pos_mean": 145.6
+ },
+ {
+  "site": "B",
+  "group": "age<65",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 2,
+  "ci": [
+   0.004881433426164379,
+   0.13713762560396733
+  ],
+  "rfnr_mean": 0.012759339314478903,
+  "retained_pos_mean": 151.18
+ },
+ {
+  "site": "B",
+  "group": "age>=65",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 3,
+  "ci": [
+   0.01254858783533406,
+   0.16548194660377283
+  ],
+  "rfnr_mean": 0.019948273222766422,
+  "retained_pos_mean": 127.4
+ },
+ {
+  "site": "B",
+  "group": "age>=65",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 1,
+  "ci": [
+   0.000506227983040829,
+   0.10646954571149987
+  ],
+  "rfnr_mean": 0.011538088031586728,
+  "retained_pos_mean": 135.4
+ },
+ {
+  "site": "B",
+  "group": "female",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 9,
+  "ci": [
+   0.08576207810966366,
+   0.31436941128565027
+  ],
+  "rfnr_mean": 0.026878166582195603,
+  "retained_pos_mean": 116.36
+ },
+ {
+  "site": "B",
+  "group": "female",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 2,
+  "ci": [
+   0.004881433426164379,
+   0.13713762560396733
+  ],
+  "rfnr_mean": 0.012738838580752823,
+  "retained_pos_mean": 123.56
+ },
+ {
+  "site": "B",
+  "group": "male",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 0,
+  "ci": [
+   0.0,
+   0.07112173646419764
+  ],
+  "rfnr_mean": 0.019646773415243256,
+  "retained_pos_mean": 156.64
+ },
+ {
+  "site": "B",
+  "group": "male",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 1,
+  "ci": [
+   0.000506227983040829,
+   0.10646954571149987
+  ],
+  "rfnr_mean": 0.01748093309074187,
+  "retained_pos_mean": 159.84
+ },
+ {
+  "site": "B",
+  "group": "unit_medical",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 8,
+  "ci": [
+   0.07170076718328619,
+   0.29112630659511063
+  ],
+  "rfnr_mean": 0.03160584557451858,
+  "retained_pos_mean": 79.08
+ },
+ {
+  "site": "B",
+  "group": "unit_medical",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 21,
+  "too_small": 0,
+  "evaluated": 29,
+  "violations": 0,
+  "ci": [
+   0.0,
+   0.11944486906950269
+  ],
+  "rfnr_mean": 0.0028902577419016875,
+  "retained_pos_mean": 88.72413793103448
+ },
+ {
+  "site": "B",
+  "group": "unit_surgical",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 3,
+  "ci": [
+   0.01254858783533406,
+   0.16548194660377283
+  ],
+  "rfnr_mean": 0.021424001240571353,
+  "retained_pos_mean": 117.0
+ },
+ {
+  "site": "B",
+  "group": "unit_surgical",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 2,
+  "ci": [
+   0.004881433426164379,
+   0.13713762560396733
+  ],
+  "rfnr_mean": 0.01594526772253451,
+  "retained_pos_mean": 120.18
+ },
+ {
+  "site": "B",
+  "group": "unit_unknown",
+  "mode": "marginal",
+  "runs": 50,
+  "refused": 0,
+  "too_small": 0,
+  "evaluated": 50,
+  "violations": 2,
+  "ci": [
+   0.004881433426164379,
+   0.13713762560396733
+  ],
+  "rfnr_mean": 0.015104559688180388,
+  "retained_pos_mean": 76.92
+ },
+ {
+  "site": "B",
+  "group": "unit_unknown",
+  "mode": "mondrian",
+  "runs": 50,
+  "refused": 19,
+  "too_small": 0,
+  "evaluated": 31,
+  "violations": 0,
+  "ci": [
+   0.0,
+   0.11218874692236995
+  ],
+  "rfnr_mean": 0.0037192007398963917,
+  "retained_pos_mean": 83.35483870967742
+ }
+]
