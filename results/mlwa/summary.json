@@ -1,0 +1,2764 @@
+{
+ "real": {
+  "n_runs": 50,
+  "settings": {
+   "within_AtoA|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 5,
+     "viol_ci": [
+      0.03327509358902247,
+      0.21813536643420225
+     ],
+     "rfnr_mean": 0.03226517962761121,
+     "rfnr_max": 0.08533916849015317,
+     "coverage_mean": 0.6165827383189277,
+     "rfpr_mean": 0.8428911834524118,
+     "sel_err_mean": 0.7635262183665413,
+     "aurc01_mean": 0.769470676996057,
+     "aurc_fnr_mean": 0.0274054893282944,
+     "retained_pos_mean": 481.58
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.011176902740606556,
+     "rfnr_max": 0.02594810379241517,
+     "coverage_mean": 0.654934235249906,
+     "rfpr_mean": 0.9522278102379027,
+     "sel_err_mean": 0.8621228848659784,
+     "aurc01_mean": 0.8305197332687219,
+     "aurc_fnr_mean": 0.01125796921852048,
+     "retained_pos_mean": 500.16
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 28,
+     "viol_ci": [
+      0.41254412294167314,
+      0.7000927790724563
+     ],
+     "rfnr_mean": 0.1405229973607758,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.02235106744689608,
+     "rfpr_mean": 0.20764375970917684,
+     "sel_err_mean": 0.2001087608831111,
+     "aurc01_mean": 0.2264257771627418,
+     "aurc_fnr_mean": 0.268458708263811,
+     "retained_pos_mean": 18.632653061224488
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.31013791087032294,
+     "rfnr_max": 0.3743169398907104,
+     "coverage_mean": 0.6995816109232119,
+     "rfpr_mean": 0.22504888587306607,
+     "sel_err_mean": 0.23062131355968574,
+     "aurc01_mean": 0.22630612115201332,
+     "aurc_fnr_mean": 0.2685441081967638,
+     "retained_pos_mean": 366.84
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.22577291035908797,
+     "rfnr_max": 0.33557046979865773,
+     "coverage_mean": 0.2628460478516848,
+     "rfpr_mean": 0.19231128587234345,
+     "sel_err_mean": 0.19455717534277908,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 151.68
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.19182069322457396,
+     "rfnr_max": 0.3051948051948052,
+     "coverage_mean": 0.22923211825128398,
+     "rfpr_mean": 0.23230137241755927,
+     "sel_err_mean": 0.22797506473596943,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 146.74
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 19,
+     "viol_ci": [
+      0.24650107779986222,
+      0.5282508369471446
+     ],
+     "rfnr_mean": 0.0473758865248227,
+     "rfnr_max": 0.08156028368794327,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.8342822482814395,
+     "sel_err_mean": 0.7786872103219341,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 564.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.9999170124481327,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.6978955279969934,
+     "rfpr_mean": 0.00018648851869381992,
+     "sel_err_mean": 0.04289796450671702,
+     "aurc01_mean": 0.059867824876486286,
+     "aurc_fnr_mean": 0.9421158503710931,
+     "retained_pos_mean": 238.04
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "cross_AtoB|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.1861363391029168,
+     "rfnr_max": 0.6036036036036037,
+     "coverage_mean": 0.6298119440914867,
+     "rfpr_mean": 0.7285974737637736,
+     "sel_err_mean": 0.7034021785695588,
+     "aurc01_mean": 0.7683364036455542,
+     "aurc_fnr_mean": 0.13335827092749208,
+     "retained_pos_mean": 228.5
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 35,
+     "viol_ci": [
+      0.5539176743388218,
+      0.821382154335853
+     ],
+     "rfnr_mean": 0.088253506796226,
+     "rfnr_max": 0.33707865168539325,
+     "coverage_mean": 0.6397763659466328,
+     "rfpr_mean": 0.8749879805410333,
+     "sel_err_mean": 0.8383562162844501,
+     "aurc01_mean": 0.8573792728740252,
+     "aurc_fnr_mean": 0.06677953259766461,
+     "retained_pos_mean": 233.68
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 44,
+     "viol_ci": [
+      0.7568986832944373,
+      0.9546646792263361
+     ],
+     "rfnr_mean": 0.6325472246175681,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.050045380286803415,
+     "rfpr_mean": 0.12359539966601633,
+     "sel_err_mean": 0.15116522267503973,
+     "aurc01_mean": 0.18471616053848583,
+     "aurc_fnr_mean": 0.6571313987450754,
+     "retained_pos_mean": 18.26530612244898
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6591096481155355,
+     "rfnr_max": 0.9122137404580153,
+     "coverage_mean": 0.7183557814485387,
+     "rfpr_mean": 0.177289389424524,
+     "sel_err_mean": 0.19699198144204164,
+     "aurc01_mean": 0.1832948255846553,
+     "aurc_fnr_mean": 0.6581249341439552,
+     "retained_pos_mean": 232.42
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6612793550223384,
+     "rfnr_max": 0.952755905511811,
+     "coverage_mean": 0.3305285895806861,
+     "rfpr_mean": 0.1386363818774116,
+     "sel_err_mean": 0.1596213193108114,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 107.8
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6340115855328371,
+     "rfnr_max": 0.9493670886075949,
+     "coverage_mean": 0.296848792884371,
+     "rfpr_mean": 0.15465587046498047,
+     "sel_err_mean": 0.17442527157646048,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 100.12
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.18691131498470945,
+     "rfnr_max": 0.45871559633027525,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.7577011799018958,
+     "sel_err_mean": 0.733984752223634,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 327.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.9994769851657941,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.7867445997458704,
+     "rfpr_mean": 0.00022096299776910383,
+     "sel_err_mean": 0.036310404239887226,
+     "aurc01_mean": 0.048555310186815054,
+     "aurc_fnr_mean": 0.9804027602748775,
+     "retained_pos_mean": 224.14
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "cross_BtoA|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 49,
+     "viol_ci": [
+      0.8935304542885001,
+      0.9994937720169592
+     ],
+     "rfnr_mean": 0.31742367445485037,
+     "rfnr_max": 0.6025369978858351,
+     "coverage_mean": 0.7984091193786795,
+     "rfpr_mean": 0.5637927251848603,
+     "sel_err_mean": 0.5455612715879978,
+     "aurc01_mean": 0.7007774205993197,
+     "aurc_fnr_mean": 0.16707109851297253,
+     "retained_pos_mean": 460.22
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 48,
+     "viol_ci": [
+      0.8628623743960325,
+      0.9951185665738356
+     ],
+     "rfnr_mean": 0.2778642912563845,
+     "rfnr_max": 0.563169164882227,
+     "coverage_mean": 0.7836327195289993,
+     "rfpr_mean": 0.6077250257097806,
+     "sel_err_mean": 0.5834609598977134,
+     "aurc01_mean": 0.7322198280080504,
+     "aurc_fnr_mean": 0.14029053228066687,
+     "retained_pos_mean": 453.62
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 44,
+     "viol_ci": [
+      0.7568986832944373,
+      0.9546646792263361
+     ],
+     "rfnr_mean": 0.6557457741512939,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.23917406120659462,
+     "rfpr_mean": 0.14039655648894706,
+     "sel_err_mean": 0.17532572998471316,
+     "aurc01_mean": 0.22548474944587207,
+     "aurc_fnr_mean": 0.6747880491280736,
+     "retained_pos_mean": 116.36734693877551
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6087372307658503,
+     "rfnr_max": 0.8093306288032455,
+     "coverage_mean": 0.8429537767756483,
+     "rfpr_mean": 0.2643176192962849,
+     "sel_err_mean": 0.2880809422733302,
+     "aurc01_mean": 0.22418965033909885,
+     "aurc_fnr_mean": 0.677663706630918,
+     "retained_pos_mean": 471.44
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6507439913732882,
+     "rfnr_max": 0.8876712328767123,
+     "coverage_mean": 0.5909056745584367,
+     "rfpr_mean": 0.2105813167324046,
+     "sel_err_mean": 0.23968406984107996,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 320.98
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6200122081088297,
+     "rfnr_max": 0.8851540616246498,
+     "coverage_mean": 0.5487285481648503,
+     "rfpr_mean": 0.2321338819666573,
+     "sel_err_mean": 0.2574040056075064,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 298.14
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.3266666666666667,
+     "rfnr_max": 0.5691489361702128,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.5734384687963336,
+     "sel_err_mean": 0.5560040085181011,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 564.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 1.0,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.7567180258048353,
+     "rfpr_mean": 0.0,
+     "sel_err_mean": 0.06504958922605655,
+     "aurc01_mean": 0.07702837711947785,
+     "aurc_fnr_mean": 0.9867427951470513,
+     "retained_pos_mean": 393.14
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "within_BtoB|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.022650159794959625,
+     "rfnr_max": 0.04918032786885246,
+     "coverage_mean": 0.6727801778907242,
+     "rfpr_mean": 0.9557462232434569,
+     "sel_err_mean": 0.9074795770124956,
+     "aurc01_mean": 0.8937519967477973,
+     "aurc_fnr_mean": 0.018860529830845095,
+     "retained_pos_mean": 273.0
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.01317462787613038,
+     "rfnr_max": 0.03571428571428571,
+     "coverage_mean": 0.7259110546378652,
+     "rfpr_mean": 0.9803665072696073,
+     "sel_err_mean": 0.9323076678602722,
+     "aurc01_mean": 0.9128305724887663,
+     "aurc_fnr_mean": 0.009667654716693667,
+     "retained_pos_mean": 283.1
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 33,
+     "viol_ci": [
+      0.5123475122784117,
+      0.7879452865646183
+     ],
+     "rfnr_mean": 0.2165031402702778,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.013090267873350101,
+     "rfpr_mean": 0.4582370940094494,
+     "sel_err_mean": 0.44605416104674334,
+     "aurc01_mean": 0.24548539025338556,
+     "aurc_fnr_mean": 0.3809537674613627,
+     "retained_pos_mean": 10.775510204081632
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.44648517021335293,
+     "rfnr_max": 0.5155555555555555,
+     "coverage_mean": 0.6988310038119441,
+     "rfpr_mean": 0.2136949835495046,
+     "sel_err_mean": 0.22323352749765923,
+     "aurc01_mean": 0.2457774484573275,
+     "aurc_fnr_mean": 0.3792150228904447,
+     "retained_pos_mean": 225.6
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.30445317217897827,
+     "rfnr_max": 0.43157894736842106,
+     "coverage_mean": 0.2111080050825921,
+     "rfpr_mean": 0.23337217704848778,
+     "sel_err_mean": 0.23687112232774202,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 86.4
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 49,
+     "viol_ci": [
+      0.8935304542885001,
+      0.9994937720169592
+     ],
+     "rfnr_mean": 0.19736703405113804,
+     "rfnr_max": 0.358974358974359,
+     "coverage_mean": 0.14305717916137228,
+     "rfpr_mean": 0.37606029451868767,
+     "sel_err_mean": 0.36129167303826876,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 76.48
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 17,
+     "viol_ci": [
+      0.21205471343538165,
+      0.48765248772158826
+     ],
+     "rfnr_mean": 0.04428134556574923,
+     "rfnr_max": 0.08256880733944955,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.9169720270449423,
+     "sel_err_mean": 0.8807115628970774,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 327.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 1.0,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.7014587039390089,
+     "rfpr_mean": 0.0,
+     "sel_err_mean": 0.03018643956452717,
+     "aurc01_mean": 0.0397159690755322,
+     "aurc_fnr_mean": 0.9793616113714524,
+     "retained_pos_mean": 166.68
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "small100_A|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 24,
+     "viol_ci": [
+      0.33660509160345986,
+      0.6258480549209056
+     ],
+     "rfnr_mean": 0.0849870690392497,
+     "rfnr_max": 0.4134366925064599,
+     "coverage_mean": 0.715436118077445,
+     "rfpr_mean": 0.7213943361042747,
+     "sel_err_mean": 0.6651513162910145,
+     "aurc01_mean": 0.6777536324070165,
+     "aurc_fnr_mean": 0.06594985502967891,
+     "retained_pos_mean": 480.7551020408163
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 47,
+     "viol_ci": [
+      0.8345180533962271,
+      0.9874514121646659
+     ],
+     "rfnr_mean": 0.24399485509228108,
+     "rfnr_max": 0.4444444444444444,
+     "coverage_mean": 0.43014620353966465,
+     "rfpr_mean": 0.22540704498591,
+     "sel_err_mean": 0.22578612102593962,
+     "aurc01_mean": 0.22616567191073503,
+     "aurc_fnr_mean": 0.2680111488431768,
+     "retained_pos_mean": 238.79591836734693
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.3117640737773773,
+     "rfnr_max": 0.37467700258397935,
+     "coverage_mean": 0.7040886884629838,
+     "rfpr_mean": 0.2257734639750218,
+     "sel_err_mean": 0.2314235626530164,
+     "aurc01_mean": 0.22630612115201332,
+     "aurc_fnr_mean": 0.2685441081967638,
+     "retained_pos_mean": 370.76
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.22001697086850633,
+     "rfnr_max": 0.3380952380952381,
+     "coverage_mean": 0.26756858323938365,
+     "rfpr_mean": 0.20166300917245253,
+     "sel_err_mean": 0.20246271225624507,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 151.58
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.0,
+     "rfnr_max": 0.0,
+     "coverage_mean": 0.05672053112864838,
+     "rfpr_mean": 1.0,
+     "sel_err_mean": 0.7549116955033321,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 105.2
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.9975126198696463,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.6995816109232118,
+     "rfpr_mean": 0.0015767564394217567,
+     "sel_err_mean": 0.04426999330947667,
+     "aurc01_mean": 0.059867824876486286,
+     "aurc_fnr_mean": 0.9421158503710931,
+     "retained_pos_mean": 240.2
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 14,
+     "violations": 36,
+     "viol_ci": [
+      0.575094642983891,
+      0.8376893992928247
+     ],
+     "rfnr_mean": 0.999731182795699,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.33268612468161507,
+     "rfpr_mean": 0.00030333112728877127,
+     "sel_err_mean": 0.03091481161605183,
+     "aurc01_mean": 0.059500072959926625,
+     "aurc_fnr_mean": 0.9413606296650701,
+     "retained_pos_mean": 89.91666666666667
+    }
+   },
+   "within_AtoA|0.1": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 4,
+     "viol_ci": [
+      0.02222796365492976,
+      0.19234278359596282
+     ],
+     "rfnr_mean": 0.07044163513147407,
+     "rfnr_max": 0.12053571428571429,
+     "coverage_mean": 0.6264461981711136,
+     "rfpr_mean": 0.6721332505308577,
+     "sel_err_mean": 0.6160324759196121,
+     "aurc01_mean": 0.6783912243376682,
+     "aurc_fnr_mean": 0.05215458114438347,
+     "retained_pos_mean": 464.4
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.03832276468024721,
+     "rfnr_max": 0.08061002178649238,
+     "coverage_mean": 0.610474758862583,
+     "rfpr_mean": 0.8104387352138462,
+     "sel_err_mean": 0.7347673702665066,
+     "aurc01_mean": 0.7512950082029711,
+     "aurc_fnr_mean": 0.032089004552698516,
+     "retained_pos_mean": 476.96
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 33,
+     "viol_ci": [
+      0.5123475122784117,
+      0.7879452865646183
+     ],
+     "rfnr_mean": 0.16057511386414042,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.061078771982299114,
+     "rfpr_mean": 0.19247458007138774,
+     "sel_err_mean": 0.1878190679510761,
+     "aurc01_mean": 0.2264257771627418,
+     "aurc_fnr_mean": 0.268458708263811,
+     "retained_pos_mean": 42.816326530612244
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.31013791087032294,
+     "rfnr_max": 0.3743169398907104,
+     "coverage_mean": 0.6995816109232119,
+     "rfpr_mean": 0.22504888587306607,
+     "sel_err_mean": 0.23062131355968574,
+     "aurc01_mean": 0.22630612115201332,
+     "aurc_fnr_mean": 0.2685441081967638,
+     "retained_pos_mean": 366.84
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.27579098785773537,
+     "rfnr_max": 0.35,
+     "coverage_mean": 0.49872729550294376,
+     "rfpr_mean": 0.19808248297859582,
+     "sel_err_mean": 0.20311218438879883,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 259.38
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.22432036549870463,
+     "rfnr_max": 0.3277310924369748,
+     "coverage_mean": 0.42968558186145556,
+     "rfpr_mean": 0.23826689929929634,
+     "sel_err_mean": 0.2370593540014559,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 245.68
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 20,
+     "viol_ci": [
+      0.26407839509453673,
+      0.5482059715208196
+     ],
+     "rfnr_mean": 0.09485815602836882,
+     "rfnr_max": 0.14184397163120568,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.682420811430112,
+     "sel_err_mean": 0.6409094325441563,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 564.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.9999170124481327,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.6978955279969934,
+     "rfpr_mean": 0.00018648851869381992,
+     "sel_err_mean": 0.04289796450671702,
+     "aurc01_mean": 0.059867824876486286,
+     "aurc_fnr_mean": 0.9421158503710931,
+     "retained_pos_mean": 238.04
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "cross_AtoB|0.1": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.300396941756497,
+     "rfnr_max": 0.6446280991735537,
+     "coverage_mean": 0.6380050825921219,
+     "rfpr_mean": 0.5672843229723008,
+     "sel_err_mean": 0.5549522883168188,
+     "aurc01_mean": 0.64972337860756,
+     "aurc_fnr_mean": 0.2206334889212818,
+     "retained_pos_mean": 229.28
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 46,
+     "viol_ci": [
+      0.8076572164040372,
+      0.9777720363450703
+     ],
+     "rfnr_mean": 0.21291835510257046,
+     "rfnr_max": 0.5410628019323671,
+     "coverage_mean": 0.6285921219822109,
+     "rfpr_mean": 0.6896080214114357,
+     "sel_err_mean": 0.6675094055515405,
+     "aurc01_mean": 0.7432705605550539,
+     "aurc_fnr_mean": 0.1517619102333922,
+     "retained_pos_mean": 227.82
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 46,
+     "viol_ci": [
+      0.8076572164040372,
+      0.9777720363450703
+     ],
+     "rfnr_mean": 0.6589033703538383,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.09959028083914631,
+     "rfpr_mean": 0.12478820730461758,
+     "sel_err_mean": 0.1526485821732986,
+     "aurc01_mean": 0.18471616053848583,
+     "aurc_fnr_mean": 0.6571313987450754,
+     "retained_pos_mean": 34.93877551020408
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6591096481155355,
+     "rfnr_max": 0.9122137404580153,
+     "coverage_mean": 0.7183557814485387,
+     "rfpr_mean": 0.177289389424524,
+     "sel_err_mean": 0.19699198144204164,
+     "aurc01_mean": 0.1832948255846553,
+     "aurc_fnr_mean": 0.6581249341439552,
+     "retained_pos_mean": 232.42
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6679086945751824,
+     "rfnr_max": 0.9427312775330396,
+     "coverage_mean": 0.5300355781448539,
+     "rfpr_mean": 0.15609296825192356,
+     "sel_err_mean": 0.17706676224943727,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 173.0
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.626086498578667,
+     "rfnr_max": 0.9365853658536586,
+     "coverage_mean": 0.4655171537484117,
+     "rfpr_mean": 0.18137814813455577,
+     "sel_err_mean": 0.1997629853995565,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 155.04
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.29027522935779815,
+     "rfnr_max": 0.581039755351682,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.6258597375049715,
+     "sel_err_mean": 0.6119161372299873,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 327.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.9994769851657941,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.7867445997458704,
+     "rfpr_mean": 0.00022096299776910383,
+     "sel_err_mean": 0.036310404239887226,
+     "aurc01_mean": 0.048555310186815054,
+     "aurc_fnr_mean": 0.9804027602748775,
+     "retained_pos_mean": 224.14
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "cross_BtoA|0.1": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 49,
+     "viol_ci": [
+      0.8935304542885001,
+      0.9994937720169592
+     ],
+     "rfnr_mean": 0.39472983414289364,
+     "rfnr_max": 0.6652631578947369,
+     "coverage_mean": 0.8221871476888387,
+     "rfpr_mean": 0.4790420480319011,
+     "sel_err_mean": 0.47273529603839054,
+     "aurc01_mean": 0.6281298295513293,
+     "aurc_fnr_mean": 0.23033392334247071,
+     "retained_pos_mean": 470.74
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 49,
+     "viol_ci": [
+      0.8935304542885001,
+      0.9994937720169592
+     ],
+     "rfnr_mean": 0.3562314078504798,
+     "rfnr_max": 0.6432865731462926,
+     "coverage_mean": 0.8145108355254916,
+     "rfpr_mean": 0.5211261664121853,
+     "sel_err_mean": 0.508969637455096,
+     "aurc01_mean": 0.6705884976984943,
+     "aurc_fnr_mean": 0.19341004233876904,
+     "retained_pos_mean": 467.78
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 45,
+     "viol_ci": [
+      0.7818646335657977,
+      0.9667249064109775
+     ],
+     "rfnr_mean": 0.6603255847568997,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.29524474201555856,
+     "rfpr_mean": 0.15330528586713774,
+     "sel_err_mean": 0.1897482608615217,
+     "aurc01_mean": 0.22548474944587207,
+     "aurc_fnr_mean": 0.6747880491280736,
+     "retained_pos_mean": 148.83673469387756
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6087372307658503,
+     "rfnr_max": 0.8093306288032455,
+     "coverage_mean": 0.8429537767756483,
+     "rfpr_mean": 0.2643176192962849,
+     "sel_err_mean": 0.2880809422733302,
+     "aurc01_mean": 0.22418965033909885,
+     "aurc_fnr_mean": 0.677663706630918,
+     "retained_pos_mean": 471.44
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.6260322070280822,
+     "rfnr_max": 0.8481308411214953,
+     "coverage_mean": 0.731131153701616,
+     "rfpr_mean": 0.2395768684883032,
+     "sel_err_mean": 0.2658504544505009,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 405.74
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.5831456579922163,
+     "rfnr_max": 0.8337531486146096,
+     "coverage_mean": 0.6620042590504822,
+     "rfpr_mean": 0.27283985821792256,
+     "sel_err_mean": 0.2936964276542887,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 370.14
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.3801063829787234,
+     "rfnr_max": 0.6382978723404256,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.5153713438468797,
+     "sel_err_mean": 0.5058148565702117,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 564.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 1.0,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.7567180258048353,
+     "rfpr_mean": 0.0,
+     "sel_err_mean": 0.06504958922605655,
+     "aurc01_mean": 0.07702837711947785,
+     "aurc_fnr_mean": 0.9867427951470513,
+     "retained_pos_mean": 393.14
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "within_BtoB|0.1": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 3,
+     "viol_ci": [
+      0.01254858783533406,
+      0.16548194660377283
+     ],
+     "rfnr_mean": 0.05932628812988855,
+     "rfnr_max": 0.12053571428571429,
+     "coverage_mean": 0.5830139771283354,
+     "rfpr_mean": 0.8498457193807569,
+     "sel_err_mean": 0.8065262865805939,
+     "aurc01_mean": 0.8181402227130112,
+     "aurc_fnr_mean": 0.05220930388393881,
+     "retained_pos_mean": 251.42
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.034742665614093136,
+     "rfnr_max": 0.07782101167315175,
+     "coverage_mean": 0.6230571791613724,
+     "rfpr_mean": 0.9260705469138071,
+     "sel_err_mean": 0.8781341919052439,
+     "aurc01_mean": 0.8708299914769357,
+     "aurc_fnr_mean": 0.029609253133816803,
+     "retained_pos_mean": 263.44
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 32,
+     "viol_ci": [
+      0.49193135228560125,
+      0.7708429331794127
+     ],
+     "rfnr_mean": 0.20060845931641913,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.028283587895132637,
+     "rfpr_mean": 0.4089051657910164,
+     "sel_err_mean": 0.3957180255621334,
+     "aurc01_mean": 0.24548539025338556,
+     "aurc_fnr_mean": 0.3809537674613627,
+     "retained_pos_mean": 19.653061224489797
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.44648517021335293,
+     "rfnr_max": 0.5155555555555555,
+     "coverage_mean": 0.6988310038119441,
+     "rfpr_mean": 0.2136949835495046,
+     "sel_err_mean": 0.22323352749765923,
+     "aurc01_mean": 0.2457774484573275,
+     "aurc_fnr_mean": 0.3792150228904447,
+     "retained_pos_mean": 225.6
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.399114541302595,
+     "rfnr_max": 0.5,
+     "coverage_mean": 0.476838627700127,
+     "rfpr_mean": 0.1997581303624951,
+     "sel_err_mean": 0.20806112069656865,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 157.26
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.242751453190024,
+     "rfnr_max": 0.35714285714285715,
+     "coverage_mean": 0.2959339263024143,
+     "rfpr_mean": 0.3450893736180941,
+     "sel_err_mean": 0.3388761606600418,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 127.92
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 16,
+     "viol_ci": [
+      0.19520419466283928,
+      0.46699384011473066
+     ],
+     "rfnr_mean": 0.09100917431192661,
+     "rfnr_max": 0.14984709480122324,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.8166565027177515,
+     "sel_err_mean": 0.786505717916137,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 327.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 1.0,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.7014587039390089,
+     "rfpr_mean": 0.0,
+     "sel_err_mean": 0.03018643956452717,
+     "aurc01_mean": 0.0397159690755322,
+     "aurc_fnr_mean": 0.9793616113714524,
+     "retained_pos_mean": 166.68
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "small100_A|0.1": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 19,
+     "viol_ci": [
+      0.24650107779986222,
+      0.5282508369471446
+     ],
+     "rfnr_mean": 0.10122413062815928,
+     "rfnr_max": 0.4134366925064599,
+     "coverage_mean": 0.7123036452461481,
+     "rfpr_mean": 0.6790168712625716,
+     "sel_err_mean": 0.6275660918517512,
+     "aurc01_mean": 0.6428933468754187,
+     "aurc_fnr_mean": 0.08007161096183603,
+     "retained_pos_mean": 473.56
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 46,
+     "viol_ci": [
+      0.8076572164040372,
+      0.9777720363450703
+     ],
+     "rfnr_mean": 0.24529531080003164,
+     "rfnr_max": 0.4444444444444444,
+     "coverage_mean": 0.43593401283850636,
+     "rfpr_mean": 0.22650610132025573,
+     "sel_err_mean": 0.22690161374707526,
+     "aurc01_mean": 0.22616567191073503,
+     "aurc_fnr_mean": 0.2680111488431768,
+     "retained_pos_mean": 242.22448979591837
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.3117640737773773,
+     "rfnr_max": 0.37467700258397935,
+     "coverage_mean": 0.7040886884629838,
+     "rfpr_mean": 0.2257734639750218,
+     "sel_err_mean": 0.2314235626530164,
+     "aurc01_mean": 0.22630612115201332,
+     "aurc_fnr_mean": 0.2685441081967638,
+     "retained_pos_mean": 370.76
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.2742064163720913,
+     "rfnr_max": 0.38095238095238093,
+     "coverage_mean": 0.49961919078040834,
+     "rfpr_mean": 0.20223189395574268,
+     "sel_err_mean": 0.20693859845751894,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 263.96
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 7,
+     "viol_ci": [
+      0.05819170034037209,
+      0.2673960024970084
+     ],
+     "rfnr_mean": 0.056514473028892356,
+     "rfnr_max": 0.45126353790613716,
+     "coverage_mean": 0.19617437053739198,
+     "rfpr_mean": 0.8063340904027676,
+     "sel_err_mean": 0.6564781901924825,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 202.86
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 33,
+     "violations": 6,
+     "viol_ci": [
+      0.04533532077366385,
+      0.2431013167055626
+     ],
+     "rfnr_mean": 0.07624113475177305,
+     "rfnr_max": 0.2198581560283688,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.7655542605234573,
+     "sel_err_mean": 0.7168541975226768,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 564.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.9975126198696463,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.6995816109232118,
+     "rfpr_mean": 0.0015767564394217567,
+     "sel_err_mean": 0.04426999330947667,
+     "aurc01_mean": 0.059867824876486286,
+     "aurc_fnr_mean": 0.9421158503710931,
+     "retained_pos_mean": 240.2
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 14,
+     "violations": 36,
+     "viol_ci": [
+      0.575094642983891,
+      0.8376893992928247
+     ],
+     "rfnr_mean": 0.999731182795699,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.33268612468161507,
+     "rfpr_mean": 0.00030333112728877127,
+     "sel_err_mean": 0.03091481161605183,
+     "aurc01_mean": 0.059500072959926625,
+     "aurc_fnr_mean": 0.9413606296650701,
+     "retained_pos_mean": 89.91666666666667
+    }
+   }
+  }
+ },
+ "sim": {
+  "n_runs": 50,
+  "settings": {
+   "moderate_full|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 3,
+     "viol_ci": [
+      0.01254858783533406,
+      0.16548194660377283
+     ],
+     "rfnr_mean": 0.016664202600397356,
+     "rfnr_max": 0.06513872135102533,
+     "coverage_mean": 0.6945222222222222,
+     "rfpr_mean": 0.4453739898849369,
+     "sel_err_mean": 0.2500315930621783,
+     "aurc01_mean": 0.16265948521562001,
+     "aurc_fnr_mean": 0.012527543714127003,
+     "retained_pos_mean": 2820.02
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 1,
+     "viol_ci": [
+      0.000506227983040829,
+      0.10646954571149987
+     ],
+     "rfnr_mean": 0.014330262636725826,
+     "rfnr_max": 0.06393244873341375,
+     "coverage_mean": 0.6885799999999999,
+     "rfpr_mean": 0.447091463061887,
+     "sel_err_mean": 0.25055850438339106,
+     "aurc01_mean": 0.1634666599641617,
+     "aurc_fnr_mean": 0.01108149860193803,
+     "retained_pos_mean": 2837.7
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 16,
+     "viol_ci": [
+      0.19520419466283928,
+      0.46699384011473066
+     ],
+     "rfnr_mean": 0.03933229820069409,
+     "rfnr_max": 0.11098737936154417,
+     "coverage_mean": 0.4844822222222222,
+     "rfpr_mean": 0.05516363226936046,
+     "sel_err_mean": 0.043371412782055155,
+     "aurc01_mean": 0.06216498433692196,
+     "aurc_fnr_mean": 0.04641691616930529,
+     "retained_pos_mean": 1798.46
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 27,
+     "viol_ci": [
+      0.39324197611692235,
+      0.6818508214313913
+     ],
+     "rfnr_mean": 0.055565401800038695,
+     "rfnr_max": 0.13468179575727676,
+     "coverage_mean": 0.6348866666666666,
+     "rfpr_mean": 0.09308979264273366,
+     "sel_err_mean": 0.06992844310468685,
+     "aurc01_mean": 0.06216498433692196,
+     "aurc_fnr_mean": 0.04641691616930529,
+     "retained_pos_mean": 2271.04
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 36,
+     "viol_ci": [
+      0.575094642983891,
+      0.8376893992928247
+     ],
+     "rfnr_mean": 0.08123770048396875,
+     "rfnr_max": 0.16562384983437614,
+     "coverage_mean": 0.7811511111111109,
+     "rfpr_mean": 0.1317635870242026,
+     "sel_err_mean": 0.1068990394829648,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 2635.64
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 14,
+     "viol_ci": [
+      0.16231060070717532,
+      0.4249053570161089
+     ],
+     "rfnr_mean": 0.03740370743415401,
+     "rfnr_max": 0.10344827586206896,
+     "coverage_mean": 0.7042622222222221,
+     "rfpr_mean": 0.25672326927806743,
+     "sel_err_mean": 0.1527778775283607,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 2695.52
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 10,
+     "viol_ci": [
+      0.10030223747257107,
+      0.3371831083834878
+     ],
+     "rfnr_mean": 0.030946555054732774,
+     "rfnr_max": 0.09207984546039923,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.5335934848998982,
+     "sel_err_mean": 0.3601244444444444,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 3106.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.5726071909810659,
+     "rfnr_max": 0.8664739884393063,
+     "coverage_mean": 0.6993600000000001,
+     "rfpr_mean": 0.30333896047294046,
+     "sel_err_mean": 0.39067874191066837,
+     "aurc01_mean": 0.3885363557926225,
+     "aurc_fnr_mean": 0.6407361110226657,
+     "retained_pos_mean": 2068.94
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "moderate_half|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.008872085697564319,
+     "rfnr_max": 0.03650190114068441,
+     "coverage_mean": 0.7185755555555556,
+     "rfpr_mean": 0.5922947352321255,
+     "sel_err_mean": 0.3330779488138411,
+     "aurc01_mean": 0.2079514561814756,
+     "aurc_fnr_mean": 0.007153782120088419,
+     "retained_pos_mean": 2915.88
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.014424219335454201,
+     "rfnr_max": 0.048243921265920496,
+     "coverage_mean": 0.6813866666666667,
+     "rfpr_mean": 0.4491972242914793,
+     "sel_err_mean": 0.24820430890814799,
+     "aurc01_mean": 0.16318030344692033,
+     "aurc_fnr_mean": 0.011552706063401587,
+     "retained_pos_mean": 2831.3
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 19,
+     "viol_ci": [
+      0.24650107779986222,
+      0.5282508369471446
+     ],
+     "rfnr_mean": 0.04415023011859342,
+     "rfnr_max": 0.11098737936154417,
+     "coverage_mean": 0.5167822222222223,
+     "rfpr_mean": 0.06976299353062808,
+     "sel_err_mean": 0.05512746783279033,
+     "aurc01_mean": 0.06216498433692196,
+     "aurc_fnr_mean": 0.04641691616930529,
+     "retained_pos_mean": 1856.84
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 28,
+     "viol_ci": [
+      0.41254412294167314,
+      0.7000927790724563
+     ],
+     "rfnr_mean": 0.05497602174803287,
+     "rfnr_max": 0.13226452905811623,
+     "coverage_mean": 0.6306511111111112,
+     "rfpr_mean": 0.09284845200344169,
+     "sel_err_mean": 0.06965668636333018,
+     "aurc01_mean": 0.06216498433692196,
+     "aurc_fnr_mean": 0.04641691616930529,
+     "retained_pos_mean": 2258.18
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 35,
+     "viol_ci": [
+      0.5539176743388218,
+      0.821382154335853
+     ],
+     "rfnr_mean": 0.08149446309209896,
+     "rfnr_max": 0.16562384983437614,
+     "coverage_mean": 0.7835688888888889,
+     "rfpr_mean": 0.1334724590307295,
+     "sel_err_mean": 0.10911163543185327,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 2625.88
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 9,
+     "viol_ci": [
+      0.08576207810966366,
+      0.31436941128565027
+     ],
+     "rfnr_mean": 0.03094888393535798,
+     "rfnr_max": 0.09309090909090909,
+     "coverage_mean": 0.6660777777777779,
+     "rfpr_mean": 0.26628336019947957,
+     "sel_err_mean": 0.15173053973919237,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 2658.38
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 8,
+     "viol_ci": [
+      0.07170076718328619,
+      0.29112630659511063
+     ],
+     "rfnr_mean": 0.0249903412749517,
+     "rfnr_max": 0.07630392788151964,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.5841092636579573,
+     "sel_err_mean": 0.39115111111111117,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 3106.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.5730922840525017,
+     "rfnr_max": 0.8613013698630136,
+     "coverage_mean": 0.6979377777777778,
+     "rfpr_mean": 0.30257114137657726,
+     "sel_err_mean": 0.39030827947115354,
+     "aurc01_mean": 0.3885363557926225,
+     "aurc_fnr_mean": 0.6407361110226657,
+     "retained_pos_mean": 2065.22
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "severe_full|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.014953920551970536,
+     "rfnr_max": 0.0496675791943684,
+     "coverage_mean": 0.6763711111111111,
+     "rfpr_mean": 0.6734383664675141,
+     "sel_err_mean": 0.3731825294232632,
+     "aurc01_mean": 0.2613886097136774,
+     "aurc_fnr_mean": 0.012720594852022577,
+     "retained_pos_mean": 2793.04
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.012279210846349803,
+     "rfnr_max": 0.03568687643898695,
+     "coverage_mean": 0.682568888888889,
+     "rfpr_mean": 0.7031895747362708,
+     "sel_err_mean": 0.38876975118029583,
+     "aurc01_mean": 0.2700163182089802,
+     "aurc_fnr_mean": 0.010841375753257871,
+     "retained_pos_mean": 2817.46
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 39,
+     "viol_ci": [
+      0.6403881114342106,
+      0.8847341739621514
+     ],
+     "rfnr_mean": 0.1929571749116203,
+     "rfnr_max": 0.75,
+     "coverage_mean": 0.09064444444444444,
+     "rfpr_mean": 0.00024613149531871776,
+     "sel_err_mean": 0.021549237317269477,
+     "aurc01_mean": 0.08043387014403613,
+     "aurc_fnr_mean": 0.19868005570134134,
+     "retained_pos_mean": 174.66
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.20671586224323638,
+     "rfnr_max": 0.3640323584318606,
+     "coverage_mean": 0.6373044444444445,
+     "rfpr_mean": 0.04209397841834215,
+     "sel_err_mean": 0.09005397464431208,
+     "aurc01_mean": 0.08043387014403613,
+     "aurc_fnr_mean": 0.19868005570134134,
+     "retained_pos_mean": 1814.38
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.193717211232191,
+     "rfnr_max": 0.3588850174216028,
+     "coverage_mean": 0.563311111111111,
+     "rfpr_mean": 0.03129871665922823,
+     "sel_err_mean": 0.07691493079228776,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 1568.34
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 22,
+     "viol_ci": [
+      0.2999072209275436,
+      0.5874558770583268
+     ],
+     "rfnr_mean": 0.04735355553493261,
+     "rfnr_max": 0.11745437529246608,
+     "coverage_mean": 0.5224866666666667,
+     "rfpr_mean": 0.27108039451242655,
+     "sel_err_mean": 0.15586931063722495,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 2209.7
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 12,
+     "viol_ci": [
+      0.13060991619745735,
+      0.3816907481040383
+     ],
+     "rfnr_mean": 0.031732131358660653,
+     "rfnr_max": 0.07437218287186091,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.6934475738038686,
+     "sel_err_mean": 0.46508222222222223,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 3106.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.584056494466939,
+     "rfnr_max": 0.8373305526590198,
+     "coverage_mean": 0.7036866666666666,
+     "rfpr_mean": 0.33705720525056987,
+     "sel_err_mean": 0.4190243283436921,
+     "aurc01_mean": 0.4229710636658105,
+     "aurc_fnr_mean": 0.6306076833522644,
+     "retained_pos_mean": 2117.94
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "severe_half|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.006492198963874876,
+     "rfnr_max": 0.03618290258449304,
+     "coverage_mean": 0.7352755555555557,
+     "rfpr_mean": 0.8270646678639302,
+     "sel_err_mean": 0.46707274217573086,
+     "aurc01_mean": 0.3061575238846427,
+     "aurc_fnr_mean": 0.005832322829007091,
+     "retained_pos_mean": 2910.58
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 2,
+     "viol_ci": [
+      0.004881433426164379,
+      0.13713762560396733
+     ],
+     "rfnr_mean": 0.013459896446251911,
+     "rfnr_max": 0.05379256965944272,
+     "coverage_mean": 0.6786600000000002,
+     "rfpr_mean": 0.6983513350362816,
+     "sel_err_mean": 0.38490499812607354,
+     "aurc01_mean": 0.26718689520159455,
+     "aurc_fnr_mean": 0.011594544224237693,
+     "retained_pos_mean": 2805.56
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 43,
+     "viol_ci": [
+      0.7326039975029917,
+      0.9418082996596279
+     ],
+     "rfnr_mean": 0.17558990812924904,
+     "rfnr_max": 0.559322033898305,
+     "coverage_mean": 0.1513111111111111,
+     "rfpr_mean": 0.0022782965447445953,
+     "sel_err_mean": 0.02719939339125808,
+     "aurc01_mean": 0.08043387014403613,
+     "aurc_fnr_mean": 0.19868005570134134,
+     "retained_pos_mean": 346.62
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.20702640118803114,
+     "rfnr_max": 0.3697594501718213,
+     "coverage_mean": 0.6376444444444445,
+     "rfpr_mean": 0.04301945942867852,
+     "sel_err_mean": 0.09062469188281033,
+     "aurc01_mean": 0.08043387014403613,
+     "aurc_fnr_mean": 0.19868005570134134,
+     "retained_pos_mean": 1815.48
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.1988705281984698,
+     "rfnr_max": 0.3289817232375979,
+     "coverage_mean": 0.5820133333333335,
+     "rfpr_mean": 0.03977258546846158,
+     "sel_err_mean": 0.0841131133158987,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 1635.78
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 15,
+     "viol_ci": [
+      0.1786178456641469,
+      0.4460823256611782
+     ],
+     "rfnr_mean": 0.038948328273242634,
+     "rfnr_max": 0.12645281264528127,
+     "coverage_mean": 0.47637333333333337,
+     "rfpr_mean": 0.28083967809070015,
+     "sel_err_mean": 0.15034507842939618,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 2112.18
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 6,
+     "viol_ci": [
+      0.04533532077366385,
+      0.2431013167055626
+     ],
+     "rfnr_mean": 0.024713457823567285,
+     "rfnr_max": 0.07823567289117836,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.7403936206311503,
+     "sel_err_mean": 0.4934044444444444,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 3106.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.5863170895031959,
+     "rfnr_max": 0.8350462487153134,
+     "coverage_mean": 0.6955266666666668,
+     "rfpr_mean": 0.33552121106293403,
+     "sel_err_mean": 0.41879144662578727,
+     "aurc01_mean": 0.4229710636658105,
+     "aurc_fnr_mean": 0.6306076833522644,
+     "retained_pos_mean": 2094.04
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "mnar_full|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.012204459181964644,
+     "rfnr_max": 0.045574387947269306,
+     "coverage_mean": 0.6490622222222222,
+     "rfpr_mean": 0.5760528314716233,
+     "sel_err_mean": 0.3035621012061769,
+     "aurc01_mean": 0.20969659891788894,
+     "aurc_fnr_mean": 0.010847092781553562,
+     "retained_pos_mean": 2839.9
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 1,
+     "viol_ci": [
+      0.000506227983040829,
+      0.10646954571149987
+     ],
+     "rfnr_mean": 0.01229914991472115,
+     "rfnr_max": 0.050365244136870435,
+     "coverage_mean": 0.6547444444444445,
+     "rfpr_mean": 0.6039265024451486,
+     "sel_err_mean": 0.3159497151787459,
+     "aurc01_mean": 0.21519950262070395,
+     "aurc_fnr_mean": 0.01042704693130016,
+     "retained_pos_mean": 2846.46
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 46,
+     "viol_ci": [
+      0.8076572164040372,
+      0.9777720363450703
+     ],
+     "rfnr_mean": 0.4809272356398199,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.10368444444444445,
+     "rfpr_mean": 6.495595438755112e-05,
+     "sel_err_mean": 0.017105640263417484,
+     "aurc01_mean": 0.0512845921663023,
+     "aurc_fnr_mean": 0.25980692359020224,
+     "retained_pos_mean": 98.64
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.20758810966511784,
+     "rfnr_max": 0.3074957410562181,
+     "coverage_mean": 0.6324088888888889,
+     "rfpr_mean": 0.001912850047411628,
+     "sel_err_mean": 0.05448550205773098,
+     "aurc01_mean": 0.0512845921663023,
+     "aurc_fnr_mean": 0.25980692359020224,
+     "retained_pos_mean": 1474.58
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.21886791556728746,
+     "rfnr_max": 0.3202725724020443,
+     "coverage_mean": 0.666471111111111,
+     "rfpr_mean": 0.003377150239027647,
+     "sel_err_mean": 0.059328827497462065,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 1604.1
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 16,
+     "viol_ci": [
+      0.19520419466283928,
+      0.46699384011473066
+     ],
+     "rfnr_mean": 0.04088896846810127,
+     "rfnr_max": 0.0962432915921288,
+     "coverage_mean": 0.6221111111111111,
+     "rfpr_mean": 0.21797431462635733,
+     "sel_err_mean": 0.1275944765976792,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 2570.58
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 10,
+     "viol_ci": [
+      0.10030223747257107,
+      0.3371831083834878
+     ],
+     "rfnr_mean": 0.03249195106245975,
+     "rfnr_max": 0.08306503541532517,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.5975534441805226,
+     "sel_err_mean": 0.40254444444444454,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 3106.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.8431576763519979,
+     "rfnr_max": 0.9911699779249448,
+     "coverage_mean": 0.70286,
+     "rfpr_mean": 0.09967477480634036,
+     "sel_err_mean": 0.33400637160674856,
+     "aurc01_mean": 0.35556855783133473,
+     "aurc_fnr_mean": 0.8696734358307237,
+     "retained_pos_mean": 1997.8
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   },
+   "mnar_half|0.05": {
+    "ltt_selective": {
+     "runs": 50,
+     "refused": 2,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": 0.0074695917111284255,
+     "rfnr_max": 0.03390448414145097,
+     "coverage_mean": 0.6805856481481481,
+     "rfpr_mean": 0.7323015941881231,
+     "sel_err_mean": 0.38785978917366054,
+     "aurc01_mean": 0.24754884887918263,
+     "aurc_fnr_mean": 0.0069599222796579985,
+     "retained_pos_mean": 2911.8125
+    },
+    "empirical": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 3,
+     "viol_ci": [
+      0.01254858783533406,
+      0.16548194660377283
+     ],
+     "rfnr_mean": 0.014607217119181393,
+     "rfnr_max": 0.08808493904836807,
+     "coverage_mean": 0.6544177777777778,
+     "rfpr_mean": 0.592842658943015,
+     "sel_err_mean": 0.3099915344000544,
+     "aurc01_mean": 0.21050522619279022,
+     "aurc_fnr_mean": 0.011845862670340575,
+     "retained_pos_mean": 2837.04
+    },
+    "sr_emp": {
+     "runs": 50,
+     "refused": 1,
+     "violations": 46,
+     "viol_ci": [
+      0.8076572164040372,
+      0.9777720363450703
+     ],
+     "rfnr_mean": 0.38051692587255564,
+     "rfnr_max": 1.0,
+     "coverage_mean": 0.1797278911564626,
+     "rfpr_mean": 0.0001571938121444407,
+     "sel_err_mean": 0.021214348329430727,
+     "aurc01_mean": 0.05124703791341985,
+     "aurc_fnr_mean": 0.2580333442218714,
+     "retained_pos_mean": 257.8979591836735
+    },
+    "sr_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.208208023863324,
+     "rfnr_max": 0.31343283582089554,
+     "coverage_mean": 0.6314066666666667,
+     "rfpr_mean": 0.0020219619486173653,
+     "sel_err_mean": 0.054619820801715575,
+     "aurc01_mean": 0.0512845921663023,
+     "aurc_fnr_mean": 0.25980692359020224,
+     "retained_pos_mean": 1472.0
+    },
+    "sgr": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    },
+    "conformal": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.22007881785167033,
+     "rfnr_max": 0.3438818565400844,
+     "coverage_mean": 0.6572466666666666,
+     "rfpr_mean": 0.004251949780670683,
+     "sel_err_mean": 0.06052438435765126,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 1605.2
+    },
+    "conformal_mondrian": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 7,
+     "viol_ci": [
+      0.05819170034037209,
+      0.2673960024970084
+     ],
+     "rfnr_mean": 0.03226526291526138,
+     "rfnr_max": 0.12535919540229884,
+     "coverage_mean": 0.5597622222222222,
+     "rfpr_mean": 0.2458497864698696,
+     "sel_err_mean": 0.12478073316322073,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 2497.5
+    },
+    "crc": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 7,
+     "viol_ci": [
+      0.05819170034037209,
+      0.2673960024970084
+     ],
+     "rfnr_mean": 0.025318737926593688,
+     "rfnr_max": 0.10946555054732775,
+     "coverage_mean": 1.0,
+     "rfpr_mean": 0.6685680352901255,
+     "sel_err_mean": 0.44657555555555556,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": 3106.0
+    },
+    "selectivenet_cov70": {
+     "runs": 50,
+     "refused": 0,
+     "violations": 50,
+     "viol_ci": [
+      0.9288782635358024,
+      1.0
+     ],
+     "rfnr_mean": 0.8430591281908087,
+     "rfnr_max": 0.9910962715637173,
+     "coverage_mean": 0.7019577777777778,
+     "rfpr_mean": 0.09978175021047761,
+     "sel_err_mean": 0.33396925100891595,
+     "aurc01_mean": 0.35556855783133473,
+     "aurc_fnr_mean": 0.8696734358307237,
+     "retained_pos_mean": 1995.1
+    },
+    "selectivenet_emp": {
+     "runs": 50,
+     "refused": 50,
+     "violations": 0,
+     "viol_ci": [
+      0.0,
+      0.07112173646419764
+     ],
+     "rfnr_mean": null,
+     "rfnr_max": null,
+     "coverage_mean": null,
+     "rfpr_mean": null,
+     "sel_err_mean": null,
+     "aurc01_mean": null,
+     "aurc_fnr_mean": null,
+     "retained_pos_mean": null
+    }
+   }
+  }
+ }
+}
